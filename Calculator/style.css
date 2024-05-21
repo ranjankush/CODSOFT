@@ -1,0 +1,32 @@
+.container{
+    display:block;
+    text-align: center;
+    margin-top: 80px;
+    border: 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 22%;
+    background-color:aqua;
+    border-radius: 10px;
+}
+table{
+    margin: auto;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    
+}
+button{
+    display: flex;
+    height:35px;
+    width: 70px;
+    font-size: 20px;
+    /* background-color: rgb(192, 192, 192); */
+    border-radius: 5px;
+   
+}
+input{
+    margin-top: 8px;
+    font-size: 24px;
+    border: 2px solid;
+    border-radius: 5px;
+}
