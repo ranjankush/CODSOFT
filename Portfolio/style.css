@@ -1,0 +1,252 @@
+:root {
+    --text-color: black;
+    --nav-color: rgb(133, 237, 133);
+    --sec-color:rgb(233, 159, 171);
+
+}
+
+body {
+    background-color: var(--sec-color)
+    
+}
+
+ li{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 35px;
+    font-size: 25px;
+    float: right;
+    background-color: aqua;
+}
+ul li a {
+   display: flex;
+    color: var(--text-color);
+    text-decoration: none;
+    
+}
+
+.img1{
+    display:inline;
+    margin-top: 5px;
+    border-radius: 40px;
+    block-size: 35px;
+    
+}
+
+.image {
+    position: relative;
+    display: flex;
+    margin: 10%;
+    height:500px;
+    width: 500px;
+    border: 2px solid var(--text-color);
+    float: left;
+ 
+}
+
+
+h1::first-letter {
+    font-size: 50px;
+   
+}
+.first {
+    margin-left: 10%;
+    margin-top:12%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: #e311b9;
+}
+.lines{
+  
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+  
+   
+}
+.bio{
+    display:flex;
+    border: 2px solid var(--text-color);
+    background-color: rgb(193, 164, 129);
+    padding-left:20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-left:auto;
+    margin-right: auto;
+    width:25%;
+   font-style: italic;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+}
+.button{ 
+    display: flex;
+    margin-top: 2%;
+    margin-left: 62%;
+   
+}
+.button .B{
+
+display:inline-block;
+padding:2px;
+background-color: rgb(196, 239, 238);
+
+border: 2px solid black;
+margin:5px 58px;
+color: rgba(0, 0, 0, 0.622);
+cursor: pointer;
+border-radius: 10px;
+
+}
+.icon{
+display: flex;
+margin-left: 65%;
+margin-top:3%;
+}
+
+.fa {
+
+padding: 5px;
+font-size: 40px;
+width: 50px;
+text-align: center;
+text-decoration: none;
+margin: 8px 20px;
+border-radius: 50%;
+}
+
+.fa:hover {
+opacity:0.7;
+}
+
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-google {
+background: #dd4b39;
+color: white;
+}
+
+.fa-linkedin {
+background: #007bb5;
+color: white;
+}
+
+.fa-instagram {
+background: #125688;
+color: white;
+}
+.img2{
+    display: flex;
+    margin: 5%;
+    float:right;
+    border: 2px solid black;
+}
+.para{
+    display: flex;
+    /* margin-top:8%; */
+    padding-left:20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-left:13%;
+    margin-right: auto;
+  
+    width:25%;
+    border: 2px solid;
+  background-color: rgb(193, 155, 105);
+}
+.sec{
+    margin-top:5%;
+    margin-left: 20%;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+    color: #e311b9;
+}
+.para h3{
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     text-align: justify;
+     font-size:22px;
+
+}
+.icon2{
+    display:flex;
+    margin-left:10.5%;
+    margin-top: 5%;
+    font-size :50px;
+    padding:5px;
+    column-gap:12px;
+    margin-bottom: 5%;
+   
+}
+.img4{
+ 
+    display: flex;
+    margin-left:2.5%;
+    margin-right: auto;
+    border: 1px solid;
+    margin-top: 4%;
+    float: left;
+}
+.pro{
+    display:flex;
+    margin-left:45%;
+    color: #4b11d2;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+* {
+    box-sizing:border-box
+}
+
+.container {
+  display: flex;
+  margin-left: auto;
+  margin-right:2.5%;
+  width:55%; 
+  float: right;
+  background-color: #ddd;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p{display: flex;
+    /* margin-left:50%; */
+    margin-left: auto;
+    margin-right: auto;
+    width:51.5%;
+    margin-top:5%;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.skills {
+  text-align: right; 
+  padding-bottom: 15px;
+  color: white; 
+  
+}
+.html {width: 90%; background-color: #04AA6D;} 
+.css {width: 85%; background-color: #2196F3;} 
+.js {width: 70%; background-color: #f44336;}
+.java {width: 85%; background-color: #d41aac;}
+.ach{
+    display:flex;
+    margin-top:10%;
+    margin-left:35%;
+    color: #4b11d2;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.badges{
+     display:flex;
+     margin-top: 5%;
+
+}
+.badge{
+    margin-left:2.5%;
+    height:230px;
+}
